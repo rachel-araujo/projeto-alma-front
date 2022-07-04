@@ -1,4 +1,12 @@
 /* HeroDetailComponent's private CSS styles */
+h2{
+  text-align: center;
+  font-weight: bold;
+}
+span{
+  font-weight: bold;
+}
+
 label {
     color: #435960;
     font-weight: bold;
@@ -9,7 +17,10 @@ label {
   }
   button {
     margin-top: 20px;
-    background-color: #eee;
+    margin-left: 90px;;
+    background-color: rgb(19, 15, 118);
+    color:#ccc;
+    font-weight: bolder;
     padding: 1rem;
     border-radius: 4px;
     font-size: 1rem;
@@ -22,3 +33,4 @@ label {
     color: #ccc;
     cursor: auto;
   }
+  

@@ -2,6 +2,7 @@
 
 h2 {
   text-align: center;
+  font-weight: bold;
 }
 
 .heroes-menu {
@@ -16,6 +17,7 @@ h2 {
   justify-content: space-around;
   align-content: flex-start;
   align-items: flex-start;
+ 
 }
 
 a {
@@ -31,6 +33,7 @@ a {
   min-width: 70px;
   margin: .5rem auto;
   box-sizing: border-box;
+  border-radius: 4px;
 
   /* flexbox */
   order: 0;

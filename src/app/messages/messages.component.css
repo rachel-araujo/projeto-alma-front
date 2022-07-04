@@ -1,0 +1,12 @@
+.clear {
+    padding: 1px;
+    margin-top: auto;
+    color: white;
+    background-color: brown;
+    height: 40px;
+    width: 160px;
+}
+
+.message{
+    color:#42545C;
+}
