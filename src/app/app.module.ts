@@ -21,16 +21,16 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     MessagesComponent,
     DashboardComponent,
     HeroSearchComponent
-    
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-/*     HttpClientInMemoryWebApiModule.forRoot(
-      InMemoryDataService,{ dataEncapsulation: false }
-    ) */
+    /*     HttpClientInMemoryWebApiModule.forRoot(
+          InMemoryDataService,{ dataEncapsulation: false }
+        ) */
   ],
   providers: [],
   bootstrap: [AppComponent]
