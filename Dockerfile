@@ -5,4 +5,4 @@ RUN npm install --silent
 COPY . .
 RUN npm run build
 EXPOSE 4200
-CMD ["npm","run","dev"]
+CMD ["npm","run","ng"]
