@@ -14,7 +14,7 @@ export class HeroService {
 
   constructor(private http: HttpClient, private messageService: MessageService) { }
 
-  private heroesUrl = 'http://db:8080/heroes'
+  private heroesUrl = 'http://localhost:8080/heroes'
 
   getHeroes(): Observable<Hero[]> {
     return this.http.get<Hero[]>(this.heroesUrl)
